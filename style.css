@@ -1,0 +1,90 @@
+body {
+  background-color: #eeeeee;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+.wrapper{
+  background-color:  #686d76;
+  border-radius: 20px; 
+  width: 600px;
+  height: 760px;
+  margin: 5% ;
+}
+
+.wrapper-main{
+  margin-left: 20px; 
+  margin-right: 20px;
+}
+
+.wrapper-header{
+ text-align: center;
+ width: 100%;  
+ background-color: #373a40;
+ border-radius: 20px 20px 0px 0px; 
+} 
+
+.wrapper-footer{
+  background-color: #373a40;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+}
+
+footer h3{
+  display: inline-block;
+  margin-left: 20px; 
+  margin-right: 90px;
+  margin-bottom: 0;
+  color: #19d3da; 
+}
+
+footer p{  
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 30px;
+  color: #19d3da;
+}
+
+h1{
+  padding: 0%;
+  margin: 10px 0% 0% 0%; 
+  color: #19d3da;
+}
+
+h2{
+  padding: 0% 0% 5px 0%;
+  margin: 0% 0% 10px 0%; 
+  color: #12b2b8;
+  font-size: 19px;
+}
+
+
+.selfie{
+  text-align: center; 
+}
+
+img {
+  width: 300px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+.background {
+  background-color: ; 
+}
+
+/* pseudo classes for github link */
+
+a:link {
+  color: #19d3da;
+}
+
+a:visited {
+  color: #12b2b8;
+}
+
+a:active {
+  color: white; 
+}
