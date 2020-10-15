@@ -3,18 +3,26 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
+/* wrapper that contains all major parts */
+
 .wrapper{
   background-color:  #686d76;
-  border-radius: 20px; 
-  width: 600px;
-  height: 760px;
+  border-radius: 20px;
+  width: auto;
+  height: auto; 
+  /* width: 600px;
+  height: 660px; */
   margin: 5% ;
 }
+
+/* wrapper for <main> section adding margin to both sides */
 
 .wrapper-main{
   margin-left: 20px; 
   margin-right: 20px;
 }
+
+/* wrapper for <header> section, contains <h1> & <h2> styling*/
 
 .wrapper-header{
  text-align: center;
@@ -23,34 +31,48 @@ body {
  border-radius: 20px 20px 0px 0px; 
 } 
 
+/* wrapper for <footer> section, contains <h3> & <p> styling*/
 .wrapper-footer{
   background-color: #373a40;
-  position: relative;
   bottom: 0;
   width: 100%;
   border-radius: 0px 0px 20px 20px;
 }
 
+/* centers text in footer */
+
+footer {
+  text-align: center;
+}
+
+/* allows for <h3> to remain on same horizontal axis as <p> and adds color and margin*/
+
 footer h3{
   display: inline-block;
   margin-left: 20px; 
-  margin-right: 90px;
+  margin-right: 20px;
   margin-bottom: 0;
   color: #19d3da; 
 }
 
+/* allows for <P> to remain on same horizontal axis as <h3> and adds color */
+
 footer p{  
+  text-align: right;
   display: inline-block;
   margin-top: 0;
-  margin-left: 30px;
   color: #19d3da;
 }
+
+/* styles name at top of page */
 
 h1{
   padding: 0%;
   margin: 10px 0% 0% 0%; 
   color: #19d3da;
 }
+
+/* styles title at top of page */
 
 h2{
   padding: 0% 0% 5px 0%;
@@ -59,10 +81,18 @@ h2{
   font-size: 19px;
 }
 
+/* targeting the 5th li in the ul to remove the bullet */
+ul :nth-child(5) {
+  list-style-type: none;
+}
+
+/* centers image */
 
 .selfie{
   text-align: center; 
 }
+
+/* set image property */
 
 img {
   width: 300px;
@@ -70,10 +100,6 @@ img {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
-
-.background {
-  background-color: ; 
-}
 
 /* pseudo classes for github link */
 
