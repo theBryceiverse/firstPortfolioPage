@@ -58,7 +58,6 @@ footer h3{
 /* allows for <P> to remain on same horizontal axis as <h3> and adds color */
 
 footer p{  
-  text-align: right;
   display: inline-block;
   margin-top: 0;
   color: #19d3da;
