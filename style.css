@@ -48,7 +48,7 @@ footer {
 /* allows for <h3> to remain on same horizontal axis as <p> and adds color and margin*/
 
 footer h3{
-  display: inline-block;
+  padding-top: 8px;
   margin-right: 20px;
   margin-bottom: 0;
   color: #19d3da; 
@@ -57,9 +57,9 @@ footer h3{
 /* allows for <P> to remain on same horizontal axis as <h3> and adds color */
 
 footer p{  
-  display: inline-block;
   margin-top: 0;
   color: #19d3da;
+  padding-bottom: 8px;
 }
 
 /* styles name at top of page */
